@@ -1,0 +1,22 @@
+.select {
+  width: 270px;
+  position: relative;
+  #month {
+    width: 100%;
+    -webkit-appearance: none;
+    width: 270px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .ti-calendar {
+    position: absolute;
+    right: 16px;
+    z-index: 99;
+    color: #555555;
+    top: 14px;
+  }
+}

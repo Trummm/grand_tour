@@ -1,0 +1,25 @@
+.input {
+  display: flex;
+  width: 270px;
+  height: 38px;
+  > input {
+    flex: 4;
+    height: 38px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .input_icon {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #fff;
+    color: #ccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}

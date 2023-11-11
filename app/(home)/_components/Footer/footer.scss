@@ -1,0 +1,122 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .footer_top {
+    width: 1280px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #222222;
+    .footer_award,
+    .footer_contact,
+    .footer_trips {
+      width: 395px;
+      height: 313px;
+      margin-right: 30px;
+      margin-bottom: 25px;
+
+      h2 {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+
+    .footer_award{
+      p{
+        margin: 40px 0;
+        color: #ccc;
+      }
+    }
+
+    .footer_contact {
+      p {
+        display: flex;
+        align-items: center;
+        color: #ccc;
+        margin: 20px 0;
+        svg{
+          margin-right: 10px;
+        }
+      }
+
+      .social {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 6px;
+      }
+
+      .facebook {
+        background-color: #2d5f9a;
+      }
+
+      .twitter {
+        background-color: #00c3f3;
+      }
+
+      .youtube {
+        background-color: #cc181e;
+      }
+
+      .pinterest {
+        background-color: #bd081c;
+      }
+
+      .instagram {
+        background-color: #405de6;
+      }
+    }
+
+    .footer_trips {
+      .trips_image {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .image_item {
+          width: 125px;
+          height: 125px;
+          background-color: red;
+          margin-bottom: 8px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  .footer_bar {
+    width: 1280px;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    div {
+      font-size: 12px;
+      font-weight: 400;
+      color: #ccc;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      font-size: 12px;
+      font-weight: 400;
+      color: #ccc;
+      margin-right: 16px;
+
+      li {
+        margin: 0 12px;
+      }
+    }
+  }
+}

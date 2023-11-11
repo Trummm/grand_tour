@@ -1,3 +1,28 @@
-.Heading {
-  color: red;
+.top_bar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  position: fixed;
+  z-index: 9999;
+
+  .standard_wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 90px;
+    height: 74px;
+  }
+
+  .logo_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 74px;
+
+    .menu_list {
+      display: flex;
+      list-style: none;
+      font-family: 'Poppins', Arial, Helvetica, sans-serif;
+      font-size: 0.8rem;
+    }
+  }
 }
