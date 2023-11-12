@@ -10,7 +10,7 @@ interface WhoChooseProps {
 const WhyChoose = ({ url, title, desc }: WhoChooseProps) => {
   return (
     <div className='why-choose-block'>
-      <Image src={url} alt='' />
+      <img src={url} alt='' />
       <span>{title}</span>
       <p>{desc}</p>
     </div>

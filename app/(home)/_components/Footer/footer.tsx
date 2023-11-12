@@ -9,7 +9,6 @@ import {
   Instagram,
 } from 'lucide-react'
 import './footer.scss'
-import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -21,7 +20,7 @@ const Footer = () => {
             London is a megalopolis of people, ideas and frenetic energy. The
             capital and largest city of the United Kingdom.
           </p>
-          <Image
+          <img
             src='https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/awards.png'
             alt=''
             width={246}
