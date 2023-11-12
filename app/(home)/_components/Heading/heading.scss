@@ -26,3 +26,24 @@
     }
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.top_bar_block {
+  color: black;
+  background-color: #fff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  animation: animation_header ease-in 0.3s;
+}
+
+@keyframes animation_header {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

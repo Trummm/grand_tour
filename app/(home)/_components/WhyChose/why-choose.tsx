@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import './why-choose.scss'
 
 interface WhoChooseProps {
@@ -9,7 +10,7 @@ interface WhoChooseProps {
 const WhyChoose = ({ url, title, desc }: WhoChooseProps) => {
   return (
     <div className='why-choose-block'>
-      <img src={url} alt='' />
+      <Image src={url} alt='' />
       <span>{title}</span>
       <p>{desc}</p>
     </div>

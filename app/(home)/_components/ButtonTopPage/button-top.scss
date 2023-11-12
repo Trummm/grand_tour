@@ -1,0 +1,36 @@
+.button-top {
+  position: fixed;
+  bottom: 14px;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background-color: #1ec6b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  animation: animate_button ease-in 0.1s;
+}
+
+.show {
+  display: flex;
+}
+
+.button-top:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.15);
+  transition: all ease 0.3s;
+}
+
+@keyframes animate_button {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

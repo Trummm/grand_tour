@@ -1,6 +1,6 @@
 interface NavbarProps {
   name?: string
-  icon?: LucideIcon
+  icon: LucideIcon
   data?: any
 }
 

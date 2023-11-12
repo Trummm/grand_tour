@@ -1,0 +1,80 @@
+.main_option {
+  .option {
+    position: fixed;
+    width: 330px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 25px 15px 0 15px;
+    right: 0;
+    z-index: 99999999;
+    transform: translateX(360px);
+    color: black;
+    transition: all ease-in 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      text-align: center;
+      font-size: 12px;
+      opacity: 0.7;
+      color: #222;
+    }
+
+    h6 {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .demo-list {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      list-style: none;
+      padding: 0;
+    }
+
+    .demo-list-item {
+      background-image: url('https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 145px;
+      height: 80px;
+      margin-bottom: 16px;
+    }
+
+    .option_button {
+      position: absolute;
+      width: 40px;
+      height: 130px;
+      background-color: #fff;
+      top: 150px;
+      left: -40px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0 10px 0;
+      cursor: pointer;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .option_color {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+    }
+
+    .option_color_item {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+  }
+}

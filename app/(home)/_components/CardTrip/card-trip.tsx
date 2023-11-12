@@ -1,5 +1,8 @@
 import { Clock4 } from 'lucide-react'
 import './card-trip.scss'
+import Image from 'next/image'
+import Start from '@/public/star.png'
+import Start2 from '@/public/star-2.png'
 
 interface CardTripProps {
   url: string
@@ -16,11 +19,11 @@ const CardTrip = ({ url }: CardTripProps) => {
         <p>City Tours, Urban</p>
         <div className='review'>
           <div className='review-left'>
-            <img src='./star.png' alt='' />
-            <img src='./star.png' alt='' />
-            <img src='./star.png' alt='' />
-            <img src='./star.png' alt='' />
-            <img src='./star-2.png' alt='' />
+            <Image src={Start} alt='' />
+            <Image src={Start} alt='' />
+            <Image src={Start} alt='' />
+            <Image src={Start} alt='' />
+            <Image src={Start2} alt='' />
             <p>4 reviews</p>
           </div>
           <div className='review-right'>
