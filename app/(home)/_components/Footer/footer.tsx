@@ -41,7 +41,7 @@ const Footer = () => {
             <AlarmClock size={15} />
             Mon - Sat 8.00 - 18.00 Sunday CLOSED
           </p>
-          <div style={{ display: 'flex' }}>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div className='social facebook'>
               <Facebook />
             </div>

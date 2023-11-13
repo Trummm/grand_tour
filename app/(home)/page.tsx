@@ -4,11 +4,12 @@ import CenterWrapper from './_components/CenterWrapper/center-wrapper'
 import Footer from './_components/Footer/footer'
 import Heading from './_components/Heading/heading'
 import ImageBanner from './_components/ImageBanner/image-banner'
+import MobileMenuWrapper from './_components/MobileMenuWrapper/mobile-menu-wrapper'
 import OptionButton from './_components/OptionButton/option-button'
 
 export default function Home() {
   return (
-    <div style={{ position: 'relative' }}>
+    <div style={{ position: 'relative', overflow: 'hidden' }}>
       <OptionButton />
       <Heading />
       <ButtonTop />
